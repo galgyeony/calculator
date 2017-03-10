@@ -7,10 +7,10 @@ int multi(int,int);
 
 int main(int argc, char* argv[])
 {
-	int a,b,c;
+	int a,b,c ;
 	char operator;
 
-	printf("please enter an exp");
+	printf("please enter an exp: ");
 	scanf("%d %c %d", &a, &operator, &b);
 	
 	switch(operator)
